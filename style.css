@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("images/aliceHDPNGwide.jpeg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.changa-one-regular {
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.changa-one-regular-italic {
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h1 {
+    color: orangered !important;
+    font-size: 48px !important; 
+    letter-spacing: 5px;
+    /* border: 5px solid red; */
+}
+
+.horario {
+    font-size: 32px !important;
+    color: white;
+}
+  
