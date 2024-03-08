@@ -87,3 +87,36 @@ a {
     font-weight: 900;
     font-style: normal;
 }
+
+.btn-flutuante {
+    position: fixed;
+    bottom: 100px;
+    /* right: 150px; */
+    right: 20%;
+    left: 30%;
+    background-color: #7289da;
+    color: #fff;
+    border: none;
+    /* border-radius: 15%; */
+    height: 100px;
+    width: 40vw;
+    min-width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease; */
+}
+
+.discIconText {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.discIcon {
+    filter: brightness(0) saturate(100%) invert(94%) sepia(94%) saturate(0%) hue-rotate(181deg) brightness(106%) contrast(107%);
+}
