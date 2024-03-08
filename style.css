@@ -1,26 +1,7 @@
 body, html {
     height: 100%;
-}
-
-.bg {
-    position: relative; 
-    height: 100vh;
-    width: 100%;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-}
-
-.bg::before {    
-      content: "";
-      background-image: url('images/fundoRosasBrancas.jpg');
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.60;
+    background-image: url("images/fundoRosasBrancas50p.png");
+    background-size: cover;
 }
 
 .cabecalho {
