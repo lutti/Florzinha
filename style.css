@@ -25,7 +25,9 @@ body, html {
 
 .cabecalho {
     background-color: #344f46;
-    height: 220px;
+    /* height: 220px; */
+    padding-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .relative {
@@ -37,13 +39,69 @@ body, html {
     background-size: cover;
     height: 210px;
     width: 310px;
+    margin: auto;
+    /* border: red 5px solid; */
 }
 
 .social-links {
+    margin: 25px 0px;
     filter: invert(48%) sepia(31%) saturate(1087%) hue-rotate(312deg) brightness(105%) contrast(86%);
 }
 
 a {
     font-size: larger;
     color: #EEE4DA;
+}
+
+.depoimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* width: 400px;
+    height: 600px; */
+    /* border: red 5px solid; */
+    margin-bottom: 25px;
+}
+
+.profilepicture1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url("images/fregoliProfile.png");
+    background-size: cover;
+    border: #EC6968 solid 15px;
+    margin-bottom: 25px;
+}
+
+.profilepicture2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url("images/yohannaProfile.png");
+    background-size: cover;
+    border: #EC6968 solid 15px;
+    margin-bottom: 25px;
+}
+
+.depoimentotexto1 {
+    width: 275px;
+    color: #344f46;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.depoimentotexto2 {
+    width: 300px;
+    color: #344f46;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.super-bold {
+    font-weight: 700;
 }
