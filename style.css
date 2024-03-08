@@ -3,39 +3,47 @@ body, html {
 }
 
 .bg {
-    /* The image used */
-    background-image: url("images/aliceHDPNGwide.jpeg");
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
 
-    /* Full height */
-    height: 100%;
+.bg::before {    
+      content: "";
+      background-image: url('images/fundoRosasBrancas.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.60;
+}
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
+.cabecalho {
+    background-color: #344f46;
+    height: 220px;
+}
+
+.relative {
+    position: relative;
+}
+
+.logo {
+    background-image: url("images/logo1.png");
     background-size: cover;
+    height: 210px;
+    width: 310px;
 }
 
-.changa-one-regular {
-    font-family: "Changa One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.social-links {
+    filter: invert(48%) sepia(31%) saturate(1087%) hue-rotate(312deg) brightness(105%) contrast(86%);
 }
 
-.changa-one-regular-italic {
-    font-family: "Changa One", sans-serif;
-    font-weight: 400;
-    font-style: italic;
+a {
+    font-size: larger;
+    color: #EEE4DA;
 }
-
-h1 {
-    color: orangered !important;
-    font-size: 48px !important; 
-    letter-spacing: 5px;
-    /* border: 5px solid red; */
-}
-
-.horario {
-    font-size: 32px !important;
-    color: white;
-}
-  
